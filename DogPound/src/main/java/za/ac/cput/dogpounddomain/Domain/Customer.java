@@ -39,7 +39,7 @@ public class Customer implements Serializable {
         private Adoption adopt;
         private Address adress;
 
-        public Builder (String custNumber) {
+        public Builder() {
             this.custNumber = custNumber;
         }
 

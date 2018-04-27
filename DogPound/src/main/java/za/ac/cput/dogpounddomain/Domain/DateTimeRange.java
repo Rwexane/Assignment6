@@ -1,26 +1,27 @@
 package za.ac.cput.dogpounddomain.Domain;
 
-import java.sql.Date;
+//import java.sql.Date;
 import java.sql.Time;
+import java.util.Date;
 
 /**
  * Created by Admin on 2016/04/03.
  */
 public class DateTimeRange {
-    private Date startDate;
-    private Date endDate;
+    private java.util.Date startDate;
+    private java.util.Date endDate;
     private Time startTime;
     private Time endTime;
 
-    public Date getStartDate() {
+    public java.util.Date getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(java.util.Date startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public java.util.Date getEndDate() {
         return endDate;
     }
 

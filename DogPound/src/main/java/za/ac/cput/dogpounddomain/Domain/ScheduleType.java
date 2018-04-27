@@ -3,6 +3,7 @@ package za.ac.cput.dogpounddomain.Domain;
 import za.ac.cput.dogpounddomain.DomainInterfaces.*;
 import java.io.Serializable;
 import java.util.List;
+import java.util.zip.*;
 
 public class ScheduleType implements Serializable {
     private String code;
